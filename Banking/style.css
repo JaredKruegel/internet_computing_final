@@ -1,0 +1,139 @@
+/* Style the cards */
+.logo {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-wrapper {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.nav-button {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.nav-button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.nav-button:active {
+    background-color: lightblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Style the transaction table */
+#transactionTable {
+    margin-top: 20px;
+}
+
+#transactionTable th {
+    font-weight: bold;
+    text-align: center;
+}
+
+#transactionTable td {
+    text-align: center;
+}
+
+/* Style the bill payments table */
+#billPaymentsTable {
+    margin-top: 20px;
+}
+
+#billPaymentsTable th {
+    font-weight: bold;
+    text-align: center;
+}
+
+#billPaymentsTable td {
+    text-align: center;
+}
+
+/* Style the sidebar */
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Style the cards */
+.card {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* add a transition effect to smooth out the color change */
+}
+
+/* Style the savings card */
+.savings-card {
+    background-color: #b8daff;
+    color: #0c5460;
+    border-color: #7abaff;
+}
+
+/* Style the checking card */
+.checking-card {
+    background-color: #c3e6cb;
+    color: #155724;
+    border-color: #28a745;
+}
+
+/* Style the title */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* add a hover rule to change the background color of the card */
+.card:hover {
+    background-color: #f7f7f7;
+}

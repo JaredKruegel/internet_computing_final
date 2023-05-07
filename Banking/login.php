@@ -41,21 +41,86 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        .logo{
+            margin-top:20px;
+            font-size: 20px;
+            margin-left:10px;
+        }
+        .nav-wrapper{
+            margin:15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .logo-wrapper{
+            display: flex;
+            justify-content: left;
+        }
+        .nav-button {
+            margin-top: 20px;
+            margin-right: 10px;
+            background-color: blueviolet; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 16px;
+          }
+          .nav-button:hover {
+            background-color: lightblue;
+            color:black;
+          }
+          .nav-button:active {
+            background-color: lightblue;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .splash {
+            text-align: center;
+            font-size: 30px;
+            margin-top:150px;
+        }
+        .reasonsWrapper{
+            display: flex;
+            justify-content: center;
+            padding-bottom:100px;
+        }
+        .reasonsToJoin{
+            margin: auto 0;
+            margin-top:150px;
+            text-align: center;
+            max-width: 50%;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <a class="nav-wrapper"> 
+        <div class="logo-wrapper">
+        <img src="https://www.pngarts.com/files/6/Blue-Bank-PNG-Image-Background.png" style="max-width:50px;"/>
+        <div class="logo">
+        J&J&J Bank
+        </div>
+        </div>
+        <button class="nav-button">
+            Login
+        </button>
+        </a> 
+    </header>    
+
+    <div style="margin-left:40%; margin-top:100px;">
+        <h1> Login </h1>
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="user_name" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" class="nav-button"> Login </div>
+        </form>
+    </div>
     
-<div>
-    <form method="post">
-        <h3>Login</h3>
-        <input type="text" name="user_name">
-        <br>
-        <input type="password" name="password">
-        <br>
-
-        <input type="submit" name="Login">
-
-        <a href="signup.php">Signup</a>
-    </form>
-</div>
 </body>
 </html>
