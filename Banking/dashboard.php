@@ -136,7 +136,7 @@ if($result && mysqli_num_rows($result) > 0)
             <li class="list-group-item active">Menu</li>
             <li class="list-group-item"><a href="#">Home</a></li>
             <li class="list-group-item"><a href="deposit.php">Deposit</a></li>
-            <li class="list-group-item"><a href="home.html">Choose Accounts</a></li>
+            <li class="list-group-item"><a href="withdrawal.php">Withdrawal</a></li>
         </ul>
     </div>
 </body>
