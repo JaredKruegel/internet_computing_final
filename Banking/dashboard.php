@@ -34,5 +34,10 @@ if($result && mysqli_num_rows($result) > 0)
 
     <p>Balance: <?php echo $account_data['balance'];?></p>
 
+    <a href="deposit.php">Make a Deposit</a>
+    <br>
+    <a href="withdrawal.php">Make a Withdrawal</a>
+
+
 </body>
 </html>
