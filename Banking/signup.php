@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
     if(!empty($user_name) && !is_numeric($user_name) && !empty($password))
     {
-        $user_id = random_num(20);
+        $user_id = random_num(10);
 
         // create user account
         $query = "insert into user (user_id, user_name, password) values ('$user_id', '$user_name', '$password')";
@@ -107,13 +107,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
         J&J&J Bank
         </div>
         </div>
-        <button class="nav-button">
-            Login
-        </button>
+        
+        <a href="login.php">Login</a>
+        
         </a>   
     </header>
 
-    <div style="margin-top:100px; margin-left:40%">
+    <div style="margin-top:10px; margin-left:40%">
         <h1 >Create Bank Account</h1>
         <br/>
         <br/>

@@ -105,9 +105,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
         J&J&J Bank
         </div>
         </div>
-        <button class="nav-button">
-            Login
-        </button>
+        <a href="index.php">index</a>
         </a> 
     </header>    
 

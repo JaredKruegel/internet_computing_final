@@ -61,6 +61,7 @@ if($result && mysqli_num_rows($result) > 0)
 
 <div class="container" style="margin-left: 200px;">
         <h1>Checking Account Summary</h1>
+        <h2>Hello <?php echo $user_data['user_name']; ?></h2>
         <h2><a href="logout.php">logout</a></h2>
         <div class="row">
             <div class="col-md-4">
